@@ -1,0 +1,11 @@
+{
+  "method": "bcrypt",
+  "encode": "none",
+  "original_len": 300,
+  "passphrase": "S3cr3tBcryptPass!",
+  "bcrypt_hash": "$2b$10$.PGhLCTUX1gHkos6xb5t6.TRZEnsy7LE3L2D26dSiF53O6KpnY4KS",
+  "bcrypt_salt": "$2b$10$.PGhLCTUX1gHkos6xb5t6.",
+  "bcrypt_rounds": 10,
+  "payload_len": 300,
+  "verify": "PASS"
+}

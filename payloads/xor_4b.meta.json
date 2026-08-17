@@ -1,0 +1,9 @@
+{
+  "method": "xor",
+  "encode": "none",
+  "original_len": 4,
+  "key_hex": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "key_len": 16,
+  "payload_len": 4,
+  "verify": "PASS"
+}

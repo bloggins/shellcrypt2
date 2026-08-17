@@ -1,0 +1,9 @@
+{
+  "method": "rc4",
+  "encode": "none",
+  "original_len": 300,
+  "key_hex": "deadbeefcafebabefeedfacec0ffee00",
+  "key_len": 16,
+  "payload_len": 300,
+  "verify": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "method": "chacha20",
+  "encode": "none",
+  "original_len": 300,
+  "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "nonce_hex": "0001020304050607",
+  "payload_len": 300,
+  "verify": "PASS"
+}
