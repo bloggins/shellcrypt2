@@ -1,8 +1,8 @@
-python3 shellcrypt.py -i sc.bin -m aes -k 0123456789abcdef0123456789abcdef --encode base64 -f c
+python3 shellcrypt2.py -i sc.bin -m aes -k 0123456789abcdef0123456789abcdef --encode base64 -f c
 
-python3 shellcrypt.py -i sc.bin -m rc4 -k 's3cr3t' --stub rc4 -o pic.bin --verify --meta loader.json
+python3 shellcrypt2.py -i sc.bin -m rc4 -k 's3cr3t' --stub rc4 -o pic.bin --verify --meta loader.json
 
-python3 shellcrypt.py -i sc.bin -m uuid -f txt
+python3 shellcrypt2.py -i sc.bin -m uuid -f txt
 
 
 Ciphers: -m aes (CBC/CTR, 16/24/32B key), xor (rolling multi-byte key, 1–255B), uuid (GUID-format UUID string list for UuidFromStringA-style loaders), rc4, bcrypt (used as a passphrase KDF — one-way hash stretched via SHA-256 into an XOR keystream; the salt/hash are exported so decryption works with the passphrase), chacha20, plus none
